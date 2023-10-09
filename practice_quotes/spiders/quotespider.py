@@ -8,3 +8,7 @@ class QuotespiderSpider(scrapy.Spider):
 
     def parse(self, response):
         pass
+    #quote.css('span::text').get() getting the quote text
+    #quote.css('small.author::text').get() getting the author
+    
+
